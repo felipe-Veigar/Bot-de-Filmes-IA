@@ -1,8 +1,8 @@
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
-from services.tmdb_service import get_trending_movies, get_watch_providers
-from services.ai_service import generate_movie_summary
+from tmdb_service import get_trending_movies, get_watch_providers
+from ai_service import generate_movie_summary
 
 # Função auxiliar para rodar as requisições síncronas de forma assíncrona/paralela
 async def get_movie_data(movie):
