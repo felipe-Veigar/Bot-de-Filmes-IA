@@ -1,5 +1,5 @@
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from services.tmdb_service import get_trending_movies
+from tmdb_service import get_trending_movies
 from telegram import Bot
 from config import TELEGRAM_BOT_TOKEN, CHAT_ID
 
