@@ -1,6 +1,6 @@
 import requests
 from config import TMDB_API_KEY
-from services.cache import get_cache, set_cache # Importa o cache
+from cache import get_cache, set_cache # Importa o cache
 
 BASE_URL = "https://api.themoviedb.org/3"
 
