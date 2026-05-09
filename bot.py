@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
 from config import TELEGRAM_BOT_TOKEN
-from commands import top_movies, button_handler
+from handlers.commands import top_movies, button_handler
 from services.scheduler_service import start_scheduler
 
 # Carrega as variáveis de ambiente
