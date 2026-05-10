@@ -12,7 +12,7 @@ google-api-core==2.30.3
 google-api-python-client==2.196.0
 google-auth==2.52.0
 google-auth-httplib2==0.4.0
-google-generativeai==0.8.6
+google-generativeai
 googleapis-common-protos==1.75.0
 grpcio==1.80.0
 grpcio-status==1.71.2
@@ -29,8 +29,8 @@ pycparser==3.0
 pydantic==2.13.4
 pydantic_core==2.46.4
 pyparsing==3.3.2
-python-dotenv==1.2.2
-python-telegram-bot==22.7
+python-dotenv
+python-telegram-bot
 pytz==2026.2
 requests==2.33.1
 setuptools==82.0.1
@@ -43,5 +43,3 @@ tzdata==2026.2
 tzlocal==5.3.1
 uritemplate==4.2.0
 urllib3==2.7.0
-python-telegram-bot==21.1
-google-generativeai==0.8.3
